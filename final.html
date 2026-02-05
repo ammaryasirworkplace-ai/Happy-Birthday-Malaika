@@ -1,0 +1,104 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Back Button Container */
+    .back-btn {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 999;
+    }
+
+    /* Button Style */
+    .back-btn a {
+        display: inline-block;
+        padding: 12px 22px;
+        background-color: #ff4fa3; /* Pink */
+        color: #ffffff; /* White text */
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 30px;
+        box-shadow: 0 0 10px rgba(255,255,255,0.9); /* White shadow */
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .back-btn a:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 15px rgba(255,255,255,1);
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 600px) {
+        .back-btn a {
+            padding: 10px 18px;
+            font-size: 14px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<!-- Back Button -->
+<div class="back-btn">
+    <a href="javascript:history.back()">← Back</a>
+</div>
+    <img src="Images/love.png" alt="stars" class="star">
+    <img src="Images/joy.webp" alt="ballon" class="ballon">
+    <div class="container">
+        <div class="birthdayCard">
+            <div class="cardFront">
+                <div class="front-text">
+                    <h3 class="happy">HAPPY</h3>
+                    <h2 class="bday">BIRTHDAY</h2>
+                    <h3 class="toyou">to you!</h3>
+                </div>
+                <div class="wrap-deco">
+                    <div class="decorations"></div>
+                    <div class="decorationsTwo"></div>
+                </div>
+                <div class="wrap-decoTwo">
+                    <div class="decorations"></div>
+                    <div class="decorationsThree"></div>
+                </div>
+                <div class="plate">
+                    <div class="cake"></div>
+                    <div class="flame"></div>
+                </div>
+            </div>
+            <div class="cardInside">
+                <div class="img">
+                    <img src="Images/download.png" alt="Brotherpic" class="bdyboy">
+                    <img src="Images/dudu ballon.png" alt="confetti" class="confetti">
+                </div>
+                <div class="inside-text">
+                    <h3 class="happy">HAPPY</h3>
+                    <h2 class="bday">BIRTHDAY</h2>
+                    <h3 class="toyou">to you!</h3>
+                </div>
+                <div class="wishes">
+                    <p>Dear Malaika,</p>
+                    <p>Happy Birthday To You Wada Wala 🤣
+                        wishes come true.</p>
+                        <p class="name">Catto</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <img src="Images/joy1.webp" alt="cat" class="cat">
+
+
+</body></html>
